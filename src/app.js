@@ -5,8 +5,11 @@
 //agnostica porque no tiene nombre
 //autoconvocada por la ejecutamos con los parentesis
 
-const {envs} =  require('./config/env')
-const { startServer } =  require('./server/server')
+//const {envs} =  require('./config/env')
+import {envs}   from './config/env.js' 
+
+import { startServer } from './server/server.js'
+//const { startServer } =  require('./server/server')
 
 const main=() => {
 
